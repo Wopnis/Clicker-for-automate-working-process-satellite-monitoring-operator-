@@ -1,0 +1,16 @@
+clicker_app/
+├── main.py                  # точка входа
+├── config_manager.py        # работа с .env и patterns.json
+├── clicker_worker.py        # поток с Playwright
+├── ui/
+│   ├── main_window.py
+│   ├── tab_credentials.py
+│   ├── tab_alarms.py
+│   ├── tab_new_pattern.py
+│   ├── tab_control.py
+│   └── tab_logs.py
+├── .env
+├── patterns.json            # сохранённые паттерны
+├── logs/
+├── alert.mp3
+└── requirements.txt
